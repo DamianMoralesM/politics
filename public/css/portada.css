@@ -1,0 +1,135 @@
+/* definimos el caso general que va a ser el tamaño para mobiles fuera de las media queries
+luego definimos para cada pantalla las particularidades */
+
+
+/*definimos el fondo con la foto*/
+header.masthead {
+ 
+  color: white;
+  background-image: url("../img/test.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+
+
+
+/* pequeños mobiles */
+
+
+    header.masthead  {
+    padding-top: 10px;
+    padding-bottom: 110px;
+  }
+
+  .intro-text {
+    border-width: 20px;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px #000000;
+   
+    margin-top:130px;
+  }
+
+.intro-lead-in {
+   
+    font-size: 15px;
+    text-shadow: 2px 2px 2px #000000;
+  
+    padding-top:20px;
+  }
+  
+
+
+
+
+/* medianos mobiles */
+@media (min-width: 426px) {
+
+
+  header.masthead  {
+    padding-top: 50px;
+    padding-bottom: 200px;
+  }
+
+ .intro-text {
+    border-width: 20px;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px #000000;
+   
+    margin-top:130px;
+  }
+.intro-heading {
+   
+    font-size: 25px;
+    text-shadow: 2px 2px 2px #000000;
+   
+    padding-top:20px;
+  }
+.intro-lead-in {
+   
+    font-size: 20px;
+    text-shadow: 2px 2px 2px #000000;
+   
+    padding-top:20px;
+  }
+ 
+}
+
+
+
+
+/*tables y desktop en general */
+@media (min-width: 768px) {
+
+   header.masthead  {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+  .intro-text {
+    border-width: 40px;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px #000000;
+  
+    margin-top:130px;
+    
+  }
+
+   .intro-heading {
+   
+    font-size: 40px;
+    text-shadow: 2px 2px 2px #000000;
+  
+   
+  }
+
+.intro-lead-in {
+   
+    font-size: 25px;
+    text-shadow: 2px 2px 2px #000000;
+    
+    padding-top:20px;
+  }
+  
+}
+
+
+@media (min-width: 1024px) {
+  .intro-heading {
+  padding-top:0px;    
+   
+    font-size: 60px;
+    text-shadow: 2px 2px 2px #000000;
+   }
+
+   .intro-text {
+   
+    margin-top:10px;
+     }
+
+}
