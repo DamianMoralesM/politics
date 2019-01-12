@@ -4,9 +4,9 @@ luego definimos para cada pantalla las particularidades */
 
 /*definimos el fondo con la foto*/
 header.masthead {
- 
+  
   color: white;
-  background-image: url("../img/banner.jpg");
+  background-image: url("../img/fron.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -14,8 +14,7 @@ header.masthead {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  max-width: 100%;
-
+  
 }
 
 
@@ -29,6 +28,7 @@ header.masthead {
     padding-top: 10px;
     padding-bottom: 110px;
     max-width: 100%;
+    background-size: cover;
   }
 
   .intro-text {
@@ -62,6 +62,8 @@ header.masthead {
     padding-top: 50px;
     padding-bottom: 200px;
     max-width: 100%;
+    background-image: url("../img/front.jpg");
+    background-size: cover;
   }
 
  .intro-text {
