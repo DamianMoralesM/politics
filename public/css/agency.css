@@ -207,7 +207,7 @@ img::-moz-selection {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(108, 220, 196);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {

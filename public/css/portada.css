@@ -17,6 +17,13 @@ header.masthead {
   
 }
 
+#portada {
+
+  background-color:white;
+
+
+
+}
 
 
 
@@ -49,10 +56,6 @@ header.masthead {
   
 
 
-#portada {
-
-  max-width: 100%;
-}
 
 /* medianos mobiles */
 @media (min-width: 426px) {

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
   <head>
 
@@ -21,7 +21,7 @@
      <link href="vendor/font-awesome/css/fontawesome-allmin.css" rel="stylesheet">
      <link href="css/fontsResponsive.css" rel="stylesheet">
 
-    <!-- Custom fonts for this template -->
+    <!-- Custom fonts for this site -->
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -42,6 +42,60 @@
       gtag('config', 'UA-132422944-1');
     </script>
 
+    <style>
+
+   
+        #portada {
+        width: 100%;
+        height: 800px;
+        background-image: url('img/prueba.jpg');
+        background-size: cover;
+        margin-top: 50px;
+        } 
+      
+
+      
+      @media (max-width: 375px ) {
+
+        #portada {
+      width: 100%;
+      height: 500px;
+      background-image: url('img/mobile-medium.jpg');
+      background-repeat: no-repeat;
+      margin-top: 50px;
+
+        }
+      }
+
+      @media (max-width: 426px ) {
+
+        #portada {
+      width: 100%;
+      height: 640px;
+      background-image: url('img/mobile-large.jpg');
+      background-repeat: no-repeat;
+      margin-top: 50px;
+
+        }
+
+      }
+
+      @media (max-width: 360px ) {
+
+        #portada {
+        width: 100%;
+        height: 500px;
+        background-image: url('img/mobile-small.jpg');
+        background-repeat: no-repeat;
+        margin-top: 50px;
+
+        }
+
+        }
+     
+
+        
+    </style>
    
 
 
@@ -113,13 +167,20 @@
       </div>
      <img alt="portada" src="img/banner.jpg" id="portada">
       -->
-      <picture>
-        <source media='(min-width: 650px)' srcset='img/front2.jpg'>
+   <!--   <picture>
+        <source media='(min-width: 650px)' srcset='img/gustavotest.jpg' class="img-fluid">
      
         
-        <img alt='front' src='img/front2.jpg' style='max-width: 100%; padding-top: 40px; '>
+        <img alt='front' src='img/gusti6.jpeg' style='max-width: 100%; padding-top: 40px; '>
       </picture>
     </div>
+    -->
+    
+
+    <div id="portada" >
+   
+    </div> 
+
     </header>
  
     <!-- Services -->
@@ -147,7 +208,7 @@
            <div class="card border border-info rounded">
               <div class="card-body ">
                 <h4 class="card-title text-info">#Progreso</h4>
-                <p class="card-text text-secondary">Posicionarnos entre las mejores ciudades del Chaco</p>
+                <p class="card-text text-secondary">Posicionarnos en la Provincia como una ciudad con características de superación y avance</p>
                 
               </div>
             </div>
@@ -207,7 +268,7 @@
           <!--Nuevos-->
 
           <div class="col-md-4 col-sm-6 portfolio-item ">
-            <a class="portfolio-link" data-toggle="modal" data-target="#exampleModalCenter">
+            <a class="portfolio-link" data-toggle="modal" data-target="#modal0">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
@@ -223,7 +284,7 @@
 
           
           <div class="col-md-4 col-sm-6 portfolio-item ">
-            <a class="portfolio-link" data-toggle="modal" data-target="#exampleModalCenter">
+            <a class="portfolio-link" data-toggle="modal" data-target="#modal1">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
@@ -238,7 +299,7 @@
           </div>
 
           <div class="col-md-4 col-sm-6 portfolio-item ">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <a class="portfolio-link" data-toggle="modal" href="#modal2">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
@@ -254,7 +315,7 @@
 
 
           <div class="col-md-4 col-sm-6 portfolio-item ">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <a class="portfolio-link" data-toggle="modal" href="#modal3">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
@@ -271,7 +332,7 @@
 
 
           <div class="col-md-4 col-sm-6 portfolio-item ">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <a class="portfolio-link" data-toggle="modal" href="#modal4">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
@@ -286,7 +347,7 @@
           </div>
 
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+            <a class="portfolio-link" data-toggle="modal" href="#modal5">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
@@ -301,7 +362,7 @@
           </div>
 
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+            <a class="portfolio-link" data-toggle="modal" href="#modal6">
               <div class="portfolio-hover" >
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
@@ -316,7 +377,7 @@
           </div>
 
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+            <a class="portfolio-link" data-toggle="modal" href="#modal7">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
@@ -333,7 +394,7 @@
 
           <div class="col-md-4 col-sm-6 portfolio-item ">
 
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+            <a class="portfolio-link" data-toggle="modal" href="#modal8">
               <div class="portfolio-hover ">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
@@ -349,7 +410,7 @@
           </div>
 
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+            <a class="portfolio-link" >
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
@@ -381,10 +442,10 @@
         <div class="row featurette ">
           <div class="col-md-7">
             
-            <p class="lead">Mi nombre es Gustavo José Herrera, tengo 43 años, nací el 26 de noviembre de 1974 en la Ciudad de Las Breñas, provincia del Chaco, Argentina. Soy hijo de Lázaro Herrera, de vocación docente, quien en vida fuera Director de la escuela rural breñense que hoy lleva su nombre y de Berta Kelm. Estoy casado con Mariela Lilián Mijaluk (40), de profesión docente, y tengo dos hijas: Valentina Tiziana (15) y Victoria Selene (10).  </p>
+            <p class="lead">Mi nombre es Gustavo José Herrera, tengo 43 años, nací el 26 de noviembre de 1974 en la Ciudad de Las Breñas, provincia del Chaco, Argentina. Soy hijo de Lázaro Herrera, de vocación docente, quien en vida fuera Director de la escuela rural breñense que hoy lleva su nombre y de Berta Kelm. Estoy casado con Mariela Lilián Mijaluk (40), de profesión docente, y tengo dos hijas: Valentina Tiziana (16) y Victoria Selene (11).  </p>
           </div>
           <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto marco" src="img/familia.jpg" alt="Generic placeholder image">
+            <img class="featurette-image img-fluid mx-auto marco" src="img/familia-2.jpg" alt="Generic placeholder image">
           </div>
         </div>
 
@@ -395,11 +456,11 @@
             <h2 class="featurette-heading"></h2>
             <p class="lead">Cursé mi estudio primario en la EGB Nº 516 Gral. José de San Martín de Las Breñas y en la EPET Nº 25 de la ciudad de Villa Ángela realice el secundario. En el año 1994 ingresé a la UNNE y en 1999 recibí el título Odontólogo. En el mismo año comencé a especializarme en la UBA y en 2002 logré el título de Especialista en Cirugía y Traumatología Maxilofacial. Las residencias las lleve a cabo en los Hospitales: Francés (CABA), Pedro Fiorito (Avellaneda- Bs. As) y Luciano y Mariano de la Vega (Moreno- Bs. As).
 En el 2003 volví a mi ciudad y desde entonces brindo mis servicios en el Sanatorio Parque, ubicado en la calle San Martín Nº 580. 
-En cuanto al área social, actualmente soy presidente de la subcomisión de fútbol del club Unión Progresista de mi comunidad.
+En cuanto al área social, actualmente soy presidente de la subcomisión de fútbol del club Unión Progresista de mi comunidad y gestor de la casa de alojamiento para villangelenses en Resistencia.
 </p>
           </div>
           <div class="col-md-5  ">
-            <img class="featurette-image img-fluid mx-auto marco" src="img/man3.jpg" alt="Generic placeholder image">
+            <img class="featurette-image img-fluid mx-auto marco" src="img/gustavo-solo.jpg" alt="Generic placeholder image">
           </div>
         </div>
 
@@ -418,19 +479,16 @@ En cuanto al área social, actualmente soy presidente de la subcomisión de fút
         </div>
 
           <div class="row">
-            <div class="col-md-3 ">
-             <p class="letrasContacto">  <i class="fas fa-map-marker"></i> Hungría 345, Villa Ángela </p>
-            </div>
-
+          
             <div class="col-md-4">
               <p  class="letrasContacto"><a href="https://www.facebook.com/guscirherrera"> <i class="fab fa-facebook-square"></i> https://www.facebook.com/guscirherrera</a></p>
             </div>
 
-             <div class="col-md-2">
-              <p  class="letrasContacto"> <i class="fas fa-mobile-alt"></i> 3735 - 453803</p>
+             <div class="col-md-4">
+              <p  class="letrasContacto"> <i class="fas fa-mobile-alt"></i> Celular: 3735 - 453803</p>
             </div>
 
-             <div class="col-md-3">
+             <div class="col-md-4">
               <p  class="letrasContacto"> <i class="fas fa-at"></i> guscirherrera@yahoo.com.ar</p>
             </div>
          </div>
@@ -439,12 +497,26 @@ En cuanto al área social, actualmente soy presidente de la subcomisión de fút
     </div> 
   </section>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- MODALS-->
 
 <!-- Modal -->
 
 <!-- Refuncionalización Municipal -->
-<div class="modal fade bd-example-modal-lg" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade bd-example-modal-lg" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -454,12 +526,239 @@ En cuanto al área social, actualmente soy presidente de la subcomisión de fút
         </button>
       </div>
       <div class="modal-body">
-        Texto...
+        
+       <h2>Hacia adentro:</h2> 
+
+       <p> a)	Jerarquizar el rol del empleado municipal, capacitación continua, recategorizaciones que correspondan, ingreso por concurso público, pases a planta de empleados precarizados de considerada antigüedad.</p>
+       <p> b)	Ningún empleado que sea tomado durante el mandato será dejado en planta permanenente. El que vino con Herrera se va con Herrera. </p>
+       <p> c)	Replantear el esquema Municipal dando vida a funciones necesarias, creación de secretarías, reorganización del organigrama municipal.</p>
+       <p> d)	Refacción y puesta en valor del edificio municipal para brindar instalaciones dignas de trabajo.</p>
+       <p> e)	Indumentaria de trabajo acorde, herramientas dignas de trabajo, horarios convenientes según tareas. Mejoras en el control del personal.</p>
+       <p> f)	Redefinición de procesos burocráticos para mejorar la atención al vecino, limitar el flujo de información, acelerar la toma de decisiones, recortar el uso indebido de papel y planillas de diversos tipos, dar respuestas en menor tiempo a la población acerca de sus trámites.</p>
+        
+        
+       <h2>Hacia afuera: </h2>         
+       <p> a)	Servicios públicos eficientes en tiempo y forma.</p>
+       <p> b)	Obras municipales en todos los barrios.</p>
+       <p> c)	Creación de consorcios de vecinos para proyección y realización de obras barriales.
+       <p> d)	Brindar herramientas y hacer hincapié en el poder de contralor municipal, hacer cumplir ordenanzas vigentes, controles exhaustivos de tránsito, bromatología, código de edificación urbano, obras privadas, nocturnidad, ruidos molestos. Para vivir seguros y en paz.</p>
+       <p> e)	Jerarquizar el rol del municipio como primer gestor, primer coordinador, primer defensor de los intereses de la ciudad y sus instituciones. Acompañar los procesos de Clubes Deportivos, ONG´s, Iglesias, etc.</p>
+       <p> f)	Creación de Defensa Civil Municipal en conjunto con diversas fuerzas vivas de la ciudad y entes gubernamentales provinciales. </p>
+      
+
+
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Transparencia, honestidad y rol del estado -->
+<div class="modal fade bd-example-modal-lg" id="modal0" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Transparencia, honestidad y rol del estado</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <p>	a)	Queremos terminar con una vieja práctica de la política de que los logros son de una gestión, no se pondrá Gestión Herrera en ningún bien que la municipalidad adquiera, en ninguna placa recordatoria de inauguraciones u homenajes. </p>
+          <p>	b)	Transparencia en la contratación de servicios y/u obras públicas municipales. Pliegos públicos, licitaciones públicas y transparentes. </p>
+          <p> c)	Declaración jurada del gabinete municipal hasta nivel secretarías, obligatorias y públicas, al comenzar y finalizar el mandato, asimismo de integrantes del Concejo Municipal. </p>
+          <p>	d)	Manejo de pauta publicitaria transparente, sin favoritismos, sin favores publicitarios de por medio. </p>
+        
+  
       </div>
       
     </div>
   </div>
 </div>
+
+
+
+<!-- Jerarquización del Concejo Municipal -->
+<div class="modal fade bd-example-modal-lg" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Jerarquización del Concejo Municipal</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <p>a)	Informatización de procesos del Concejo Municipal. Creación de Digesto Municipal para consulta de Concejales y vecinos.</p>
+          <p>b)	Puesta en valor del Concejo Municipal. Creación de bancas, tribuna, palco de presidencia y autoridades. </p>
+          <p>c)	Regular la iniciativa popular en el Concejo Municipal para que los vecinos puedan promover sus propias ordenanzas.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Hospital Odontológico -->
+<div class="modal fade bd-example-modal-lg" id="modal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Hospital Odontológico</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Mi meta es crear un Hospital Odontológico.
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+<!-- Industria y Comercio -->
+<div class="modal fade bd-example-modal-lg" id="modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Industria y Comercio</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <h4>Programa activación Económica Industrial Villa Ángela </h4>
+
+          <p>Objetivos: desarrollo industrial, generación de 500 puestos de trabajo directos, activación económica, posicionamiento nacional e internacional. </p>
+          
+          <h5>Acciones generales. </h5>
+          
+          <p>1)	Activación de la marca “Villa Ángela”. Convocatoria a todos los que producen en Villa Ángela a que incluyan la marca dentro de su packaging, envoltorio, lonas de camiones de transporte, etc. A cambio un beneficio del 5% en impuesto a la actividad comercial.</p>
+          
+          <p>2)	Plan de radicación de empresas en Parque Industrial: en diferentes etapas.  </p>
+          
+          
+          <p>2. a)	Creación de una comisión ad-hoc conformada por un representante del Ejecutivo municipal, un representante del Concejo Municipal, un representante de la Cámara de Comercio, un representante del Consejo Profesional de Ciencias Económicas, otros.  </p>
+          <p>2. b)	Acondicionamiento de las instalaciones del Parque Industrial: Trazado de las calles, trazado de las manzanas, tendido eléctrico, tendido de red de agua, realización de desagües y tratamiento de afluentes industriales, cerco perimetral, seguridad, tendido de red de agua de emergencia e incendios. Construcción de balanza pública y oficina de informes. Acondicionamiento de playa para acoplados con seguridad. Construcción de subestación reductora de gas natural. Construcción de subestación transformadora SECHEEP. </p>
+          <p>2. c)	Creación de una secretaria de promoción industrial, encargada de “vender” el Parque Industrial en diferentes eventos de carácter provincial, nacional y a nivel Mercosur. Ofreciendo las bondades del Área Industrial Villa Ángela, acceso a aeródromo, tren directo a Rosario a 60 km, etc. Adquisición de un stand móvil para promocionar el área industrial. Confección de folletería, publicidad digital, en medios especializados de la industria argentina, casa de Chaco en Buenos aires, etc. </p>
+          <p>2. d)	Creación de ordenanzas de promoción industrial, bonificaciones impositivas fijas y/o circunstanciales, apoyo logístico y/o de gestión ante organismos provinciales y nacionales. </p>
+          <p>2. e)	Tasa bonificada de impuesto inmobiliario al 100% durante los primeros 12 meses, 75% del mes 13 al 24, 50% del mes 25 al 36, 25% del mes 37 en adelante. </p>
+          <p>2. f)	Tasa bonificada de impuesto actividad comercial con idéntico esquema. </p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Obra Pública e Infraestructura -->
+<div class="modal fade bd-example-modal-lg" id="modal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Obra Pública e Infraestructura</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+<p>	a)	Puesta en valor Terminal de Ómnibus y obras complementarias </p>
+<p>	b)	Finalización y puesta en valor de los accesos de la ciudad. </p>
+<p>	c)	Plan de reparación y mantenimiento de pavimento urbano </p>
+<p>	d)	Plan de mantenimiento regular de cunetas, canales y desagües pluviales urbanos. </p>
+<p>	e)	Avanzar en el plan de recolección diferenciada y reciclado de residuos sólidos urbanos </p>
+
+<h5 >	f)	Programa de Viviendas municipal </h5>
+
+<p>Objetivos: La concreción de 300 viviendas sociales. El refuerzo de soluciones habitacionales. Plan de ampliación y refacción de viviendas. Excepto las soluciones habitaciones, el resto se realizará por círculos cerrados de 25 a 50 participantes con sorteos mensuales y entrega de viviendas mensuales en terreno fiscal y/o terreno propio. </p>
+
+<p>Generación de mano de obra directa e indirecta a través del gran motor de la economía y la obra pública que es la vivienda. Creación de cooperativas de trabajo.</p>
+
+<p>Acciones generales.</p>
+<ul>
+<li><p>	Creación de círculo cerrado de viviendas, con un sistema muy parecido a los círculos cerrados de automotores, sin licitación, sólo adjudicación mediante sorteo.</p> </li>
+<li><p>	Concreción y entrega de una casa al mes por sorteo público, no hay licitación</p></li>
+<li><p>	Cobro de cuotas mensual por el monto de la casa en planes de 120 cuotas a valor de alquiler. Creación de una caja especial de fondos dedicados.</p></li>
+</ul>    
+</div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Cultura y Turismo -->
+<div class="modal fade bd-example-modal-lg" id="modal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Cultura y Turismo</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <p>a)	Ciclo cultural anual permanente y accesible.</p>
+          <p>b)	Revalorización de las academias y/o bandas municipales de danza, folklore y música. </p>
+          <p>c)	Promoción y revalorización del Museo Municipal. </p>
+          <p>d)	Creación del Museo Municipal del Algodón. Museo temático que inspira a recorrer nuestra historia productiva algodonero, máquinas, procesos, vivencias, costumbres de época evocadas en un mismo lugar. El primero de su clase en Argentina.</p>
+          <p>e)	Creación de una política de Turismo Rural y promoción de la Ciudad. Gestión de proyectos de ecoturismo y fortalecimiento de la cadena gastronómica y hotelera local.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Seguridad y Tránsito-->
+<div class="modal fade bd-example-modal-lg" id="modal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Seguridad y Tránsito</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <p style="margin-left:3px">a)	Programa Sin Casco no hay combustible. Ordenanza regulando el expendio de combustible a motociclistas que entren a la estación con el casco puesto. </p>
+          <p><h6>b)	Programa municipal de control de tránsito vehicular:</h6></p>
+          <p >   b. 1)	Control vehicular donde se labren infracciones condicionales a 30 días: si antes de los 30 días la persona se presenta con la infracción subsanada en el vehículo (falta de luz, falta de casco, etc) se le levanta la infracción.</p>
+          <p>b. 2)	Al momento de una segunda infracción ya el monto pasa a ser parte de la infracción y se computa al registro de deudores y de falta de libre deuda en caso de no pagar.</p>
+          <p>b. 3)	La tercer infracción pasa a ser punitiva, secuestro de vehículo.</p>
+          
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+<!-- Casa del Villangelense en Resistencia -->
+<div class="modal fade bd-example-modal-lg" id="modal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Casa del Villangelense en Resistencia</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>El proyecto se trata de crear espacio para que villangelenses puedan alojarse en Resistencia por motivos de salud, trámites, etc. </p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
 
 <!-- scripting -->
 
