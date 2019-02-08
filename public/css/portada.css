@@ -1,21 +1,17 @@
 /* definimos el caso general que va a ser el tamaño para mobiles fuera de las media queries
 luego definimos para cada pantalla las particularidades */
 
+@font-face {
+  font-family: 'League-of-spart';
+  src: url('../fonts/leaguespartan-bold.ttf');
+  
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 /*definimos el fondo con la foto*/
-header.masthead {
-  
-  color: white;
-  background-image: url("../img/fron.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  
-}
+
 
 #portada {
 
@@ -31,6 +27,8 @@ header.masthead {
 /* pequeños mobiles */
 
 
+@media(max-width:360px){
+
     header.masthead  {
     padding-top: 10px;
     padding-bottom: 110px;
@@ -42,25 +40,47 @@ header.masthead {
     border-width: 20px;
     font-size: 20px;
     text-shadow: 2px 2px 2px #000000;
-   
-    margin-top:130px;
+    font-family: League-of-spart;
+    color: white;
+ 
+    
+  }
+
+  .intro-heading{
+    position: relative;
+    top: 260px;
+    font-size: 29px;
+    text-shadow: 1px 1px 1px #000000;
+    left: 80px;
   }
 
 .intro-lead-in {
    
-    font-size: 15px;
-    text-shadow: 2px 2px 2px #000000;
-  
-    padding-top:20px;
+  font-size: 15px;
+    text-shadow: 1px 1px 1px #000000;
+    top: 300px;
+    position: relative;
+    left: 60px;
   }
-  
+  .textoInferior{
+    
+   
+    font-size: 29px;
+    text-shadow: 1px 1px 1px #000000;
+    position: relative;
+    top: 255px;
+    left: 45px;
+       
+  }
+}
 
 
 
 /* medianos mobiles */
-@media (min-width: 426px) {
+@media only screen and (min-width: 375px) and (max-width:1000px) {
 
-
+  .intro-text {visibility: hidden;}
+/*
   header.masthead  {
     padding-top: 50px;
     padding-bottom: 200px;
@@ -90,13 +110,17 @@ header.masthead {
    
     padding-top:20px;
   }
- 
+
+  .textoInferior{
+       
+  }
+ */
 }
 
 
 
 
-/*tables y desktop en general */
+/*tables y desktop en general 
 @media (min-width: 768px) {
 
    header.masthead  {
@@ -127,22 +151,118 @@ header.masthead {
     
     padding-top:20px;
   }
+
+  .textoInferior{
+       
+  }
   
 }
+*/
 
-
-@media (min-width: 1024px) {
+@media (min-width: 1023px) {
   .intro-heading {
-  padding-top:0px;    
-   
-    font-size: 60px;
-    text-shadow: 2px 2px 2px #000000;
+    padding-top: 0px;
+    font-size: 90px;
+    text-shadow: 1px 1px 1px #000000;
+    top: 350px;
+    position: absolute;
+    /* right: 130px; */
+    left: 30px;
    }
 
    .intro-text {
-   
+    font-family: League-of-spart;
     margin-top:10px;
+    color: white;
+    text-shadow: 2px 2px 2px #000000;
+     }
+
+     .intro-lead-in {
+      top: 550px;
+    position: absolute;
+      font-size: 25px;
+      text-shadow: 1px 1px 1px #000000;
+      left: 40px;
+
+     }
+
+     .textoInferior{
+      
+    font-size: 90px;
+    position: absolute;
+  
+    top: 440px;
+    /* right: 150px; */
+    left: 30px;
+    text-shadow: 1px 1px 1px #000000;
+
      }
 
 }
 
+
+
+/* imagen de la portada */
+@media(min-width:1024px){
+#portada {
+  width: 100%;
+  height: 800px;
+/*   background-image: url('img/portada-sinLetras.jpg');*/
+background-image: url('../img/portada-sinLetras.jpg');
+
+  background-size: cover;
+  margin-top: 50px;
+  } 
+}
+
+
+@media (max-width: 1023px ) {
+
+  #portada {
+width: 100%;
+height: 500px;
+background-image: url('../img/mobile-medium.jpg');
+background-repeat: no-repeat;
+margin-top: 50px;
+
+  }
+  
+}
+
+@media(min-width: 768px) and (max-width: 1020px){
+  #portada {
+    width: 100%;
+    height: 500px;
+    background-image: url('../img/portada-tablet.jpg');
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    
+      }
+}
+
+
+@media (max-width: 426px ) {
+
+  #portada {
+width: 100%;
+height: 640px;
+background-image: url('../img/mobile-large.jpg');
+background-repeat: no-repeat;
+margin-top: 50px;
+
+  }
+
+}
+
+@media (max-width: 360px ) {
+
+  #portada {
+  width: 100%;
+  height: 500px;
+  background-image: url('../img/mobile-small2.jpg');
+  background-repeat: no-repeat;
+  
+
+  }
+
+  }
