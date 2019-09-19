@@ -350,7 +350,7 @@
           </div>
 
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" >
+            <a class="portfolio-link" data-toggle="modal" href="#deporte">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
@@ -363,7 +363,36 @@
               <p class="text-muted"></p>
             </div>
           </div>
+       
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#micasa">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="data:image/jpeg;base64,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" alt=""></a>
+          <div class="portfolio-caption">
+             <h4>Proyecto Mi Casa</h4>
+            <p class="text-muted"></p>
+          </div>
         </div>
+
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#educacion">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="data:image/png;base64,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" alt="">
+              <div class="portfolio-caption">
+               <h4>Educación</h4>
+              <p class="text-muted"></p>
+            </div>
+        </div>
+      
       </div>
     </section>
 
@@ -394,7 +423,7 @@
         <div class="row featurette ">
           <div class="col-md-7 order-md-2">
             <h2 class="featurette-heading"></h2>
-            <p class="lead">Cursé mi estudio primario en la EGB Nº 516 Gral. José de San Martín de Las Breñas y en la EPET Nº 25 de la ciudad de Villa Ángela realice el secundario. En el año 1994 ingresé a la UNNE y en 1999 recibí el título Odontólogo. En el mismo año comencé a especializarme en la UBA y en 2002 logré el título de Especialista en Cirugía y Traumatología Maxilofacial. Las residencias las lleve a cabo en los Hospitales: Francés (CABA), Pedro Fiorito (Avellaneda- Bs. As) y Luciano y Mariano de la Vega (Moreno- Bs. As).
+            <p class="lead">Cursé mi estudio primario en la EGB Nº 516 Gral. José de San Martín de Las Breñas y en la E.E.T Nº 25 de la ciudad de Villa Ángela realice el secundario. En el año 1994 ingresé a la UNNE y en 1999 recibí el título Odontólogo. En el mismo año comencé a especializarme en la UBA y en 2002 logré el título de Especialista en Cirugía y Traumatología Maxilofacial. Las residencias las lleve a cabo en los Hospitales: Francés (CABA), Pedro Fiorito (Avellaneda- Bs. As) y Luciano y Mariano de la Vega (Moreno- Bs. As).
 En el 2003 volví a mi ciudad y desde entonces brindo mis servicios en el Sanatorio Parque, ubicado en la calle San Martín Nº 580. 
 En cuanto al área social, actualmente soy presidente de la subcomisión de fútbol del club Unión Progresista de mi comunidad y gestor de la casa de alojamiento para villangelenses en Resistencia.
 </p>
@@ -555,6 +584,9 @@ En cuanto al área social, actualmente soy presidente de la subcomisión de fút
       <div class="modal-body">
           <p>a) La concreci&oacute;n de un edificio con policonsultorios para m&eacute;dicos de diferentes especialidades con el objetivo de brindar asistencia gratuita a villangeleses de m&iacute;nimos recursos y sin obra social.</p>
           <p>b) Gesti&oacute;n y concreci&oacute;n del Hospital Odontol&oacute;gico. </p>
+          <p> c) Un centro de atención oncológico (quimioterapia/rayos</p> 
+          <p> d) Descentralizacion del sistema de salud (todas las salitas estarán bajo control municipal</p>
+          <p> e) creacion de una terapia intensiva en nuestro hospital local.</p>
       </div>
       
     </div>
@@ -575,15 +607,14 @@ En cuanto al área social, actualmente soy presidente de la subcomisión de fút
       <div class="modal-body">
           <h4>Programa activación Económica Industrial Villa Ángela </h4>
 
-          <p>Objetivos: desarrollo industrial, generación de 500 puestos de trabajo directos, activación económica, posicionamiento nacional e internacional</p>
-          <h5>Acciones generales. </h5>
-          
-          <p>1) Activaci&oacute;n de la marca &ldquo;Villa &Aacute;ngela&rdquo;. Convocatoria a todos los productores de Villa &Aacute;ngela a incluir dicha marca con el beneficio de la quita del 5% de impuestos en la actividad comercial.</p>
-          <p>2)Plan de radicaci&oacute;n de empresas en Parque Industrial: en diferentes etapas.</p>
-          <p>&nbsp;</p>
-          <p>2.a) Creaci&oacute;n de una comisi&oacute;n ad-hoc conformada por diferentes representantes de los sectores: municipal; econ&oacute;mico; comercial, empresarial, etc.</p>
-          <p>2.b) Acondicionamiento de las instalaciones del Parque Industrial.</p>
-          <p>2.c) Creaci&oacute;n de una secretar&iacute;a de promoci&oacute;n industrial.</p>
+          <p>Fomentar la radicación de fábricas en el parque industrial</p>
+<p>Articulación con el sector público y privado para la creación de un taller de costura de indumentaria (fábrica de ropa informal y jeans con producto primario producido en Chaco)</p> 
+<p>Reactivación comercial rural en base al turismo</p> 
+<p>Reactivación de la planta láctea</p>
+<p>Gestionaremos ante el gobierno nacional la reducción de impuestos federales con el objetivo de atraer empresas</p> 
+<p>Articulación con los consorcios rurales bajo el programa “consumo lo que produzco”</p>
+<p>Creación de consorcios barriales con el objetivo de descentralizar el trabajo diario bajo control vecinal</p> 
+
       </div>
       
     </div>
@@ -640,6 +671,7 @@ En cuanto al área social, actualmente soy presidente de la subcomisión de fút
         <p>c)Promoci&oacute;n y revalorizaci&oacute;n del Museo Municipal.</p>
         <p>d)Creaci&oacute;n del Museo Municipal del Algod&oacute;n. Museo tem&aacute;tico que inspira a recorrer nuestra historia productiva algodonero, m&aacute;quinas, procesos, vivencias, costumbres de &eacute;poca evocadas en un mismo lugar (El primero de su clase en Argentina).</p>
         <p>e)Creaci&oacute;n de una pol&iacute;tica de Turismo Rural y promoci&oacute;n de la Ciudad. Gesti&oacute;n de proyectos de ecoturismo y fortalecimiento de la cadena gastron&oacute;mica y hotelera local.</p>
+        <p> f) Creación de consorcios barriales con el objetivo de descentralizar el trabajo diario bajo control vecinal. </p>
       </div>
       
     </div>
@@ -657,8 +689,15 @@ En cuanto al área social, actualmente soy presidente de la subcomisión de fút
         </button>
       </div>
       <div class="modal-body">
-          <p>a)Programa de concientizaci&oacute;n y regulaci&oacute;n por el uso de casco, del ciclomotor en las condiciones requeridas para transitar, carn&eacute; y documentaci&oacute;n pertinente.</p>
-          <p>b)Programa municipal de regulaci&oacute;n y control del tr&aacute;nsito vehicular.</p>
+        <p>Creación de la GUP (Guardia Urbana preventiva) bajo la órbita de la secretaria general de gobierno.En un inicio serán 60 agentes quienes serán formados en técnicas de reducción personal y capacitados en derecho público (4 meses)</p>
+        <p>Estará destinada al monitoreo del espacio público fundamentalmente para impedir la comisión de delitos e incidentes</p> 
+        <p>Nuevo centro de monitoreo municipal y la colocación de no menos de 50 cámaras de seguridad por año de gestión distribuidas estratégicamente</p>  
+        
+        <p>Refuncionalización de la secretaria de tránsito municipal evitando que el objeto de la misma sea la recaudación y si la concientización y puesta en valor de la vida cuando se está frente del volante, de uno mismo y de terceros</p> 
+        <p>Programa de concientización y regulación por el uso de casco, del ciclomotor  en las condiciones requeridas para transitar, carné y documentación pertinente</p>
+        <p>Programa municipal de regulación y control del tránsito vehicular</p> 
+        
+        
           
       </div>
       
@@ -678,15 +717,85 @@ En cuanto al área social, actualmente soy presidente de la subcomisión de fút
         </button>
       </div>
       <div class="modal-body">
-        <p>El proyecto se trata de crear espacio para que villangelenses puedan alojarse en Resistencia por motivos de salud, trámites, etc. </p>
+        <p>El proyecto se trata de crear un espacio para que villangelenses que necesiten alojamiento transitorio en Resistencia por motivos de salud, trámites, etc. </p>
+<p>La casa va a contar con no menos de 5 habitaciones, cada una  de ellas con capacidad para 5 personas. Baños comunes, patio interno, salón de almuerzo, sala de estar, cocina con todos los elementos, y oficinas administrativas. </p> 
+<p>Se gestionará ante el gobierno provincial la adjudicación de algún terreno disponible (cerca del centro) donde se pueda edificar. </p>
+ 	<p>Nuevo Hogar de Niños: en resguardo de sus derechos más elementales. Su objetivo será recibir y brindar contención a niños y grupos de hermanos derivados de organismos oficiales en situación de alta vulnerabilidad social. A su cargo estarán profesionales de las áreas de psicología, desarrollo social en un trabajo conjunto con la unidad de protección integral (UPI)</p>
+
       </div>
       
     </div>
   </div>
 </div>
 
+<!-- Deporte -->
+<div class="modal fade bd-example-modal-lg" id="deporte" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="deporte">Deporte</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Desde el gobierno municipal vamos a apoyar a los deportistas y las instituciones que los cobijan</p> 
+        <p>vamos a crear la liga comunitaria de futbol y vóley dando protagonismo a clubes hoy no tenidos en cuenta por el municipio</p> 
+        <p>Suministraremos apoyo económico y con elementos a las distintas instituciones deportivas de bien público garantizando un buen nivel de desarrollo de quienes asistan</p> 
+        <p> Trabajar articuladamente con TODOS los clubes de la ciudad, será prioridad</p> 
+        
+      </div>
+      
+    </div>
+  </div>
+</div>
 
+<!-- Mi Casa -->
+<div class="modal fade bd-example-modal-lg" id="micasa" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="micasa">Proyecto Mi casa </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>La concreción de 300 viviendas sociales por círculos cerrados de 25 a 50 participantes en terrenos propios y fiscales</p>
+        <p>Plan de soluciones habitacionales (ampliación y refacción de viviendas ya existentes)</p>
+        <p>Beneficio secundario: Generación de mano de obra directa e indirecta, activación del motor económico y creación de cooperativas de trabajo</p>
+        <p>Acciones generales</p>
+        <p>Creación de círculos cerrados de viviendas con adjudicación por sorteo y sin licitación, Concreción y entrega de una casa por mes por sorteo público</p>
+        <p>Pago de cuotas mensuales (El valor de las mismas será el monto total de la casa en planes de 120 cuotas no mayor al monto de un mes de alquiler)</p>
+        <p>Creación de una caja especial de fondos dedicados pura y exclusivamente a dar solución al déficit habitacional en la ciudad</p>
+        
+      </div>
+      
+    </div>
+  </div>
+</div>
 
+<!-- Educacion -->
+<div class="modal fade bd-example-modal-lg" id="educacion" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="educacion"> Educación </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Desde la carpintería del municipio vamos a intervenir en el reequipamiento de los salones con nuevas puertas, ventanas y mobiliario estudiantil (bancos</p>pizarrón)</p> 
+        <p>Desde la secretaria de obras públicas e infraestructura iremos reacondicionando las distintas instituciones educativas de la ciudad (pintura</p>refacción edilicia)</p> 
+        <p>Vamos a gestionar ante el gobierno provincial o nacional y/o ante los distintos organismos internacionales la construcción de un colegio secundario en el Pueblo Viejo</p> 
+        <p>Queremos ampliar la oferta universitaria en la ciudad por lo que vamos a negociar con UNNE ARGENTINA la incorporación de nuevas carreras a nuestra extensión áulica.  También vamos a gestionar ante los distintos estamentos estatales la concreción del edificio propio</p>  
+        
+      </div>
+      
+    </div>
+  </div>
+</div>
 
 
 
